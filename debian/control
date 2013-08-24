@@ -1,0 +1,14 @@
+Source: wandboard-bcm4329
+Priority: extra
+Maintainer: Heinrich Schuchardt <xypron.glpk@gmx.de>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Section: libs
+Homepage: http://eewiki.net/display/linuxonarm/Wandboard
+
+Package: wandboard-bcm4329
+Section: libs
+Architecture: all
+Depends: 
+Description: Firmware for WiFi on Wandboard Dual/Quad
+ Firmware for Broadcom 4329 as used on Wandboard.
