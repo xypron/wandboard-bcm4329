@@ -7,5 +7,5 @@ all:
 
 install:
 	mkdir -p $(DESTDIR)$(FIRMWAREDIR)
-	cp -r brcm $(DESTDIR)$(FIRMWAREDIR)/brcm
+	cp -r brcm $(DESTDIR)$(FIRMWAREDIR)
 	rm -f $(DESTDIR)$(FIRMWAREDIR)/{WHENCE,LICENSE.*,LICENCE.*}
